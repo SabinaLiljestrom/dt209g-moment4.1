@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Flower - Din blomsterhandel</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/favicon.ico" type="image/png">
+</head>
+
+<body>
+    <!-- Header med logga och meny -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/img/logo.png" alt="Bloom Flower Logga">
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <!-- Ikonen för hamburgermenyn -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="products.html">Produkter</a></li>
+                <li><a href="news.html">Nyheter</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="about.html">Om oss</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact-form">
+        <h2>Kontakta oss</h2>
+        <p>Har du frågor om våra blommor eller beställningar? Fyll i formuläret nedan så återkommer vi till dig så snart
+            som möjligt.</p>
+
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Namn</label>
+                <input type="text" id="name" name="name" placeholder="Ditt namn" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-post</label>
+                <input type="email" id="email" name="email" placeholder="Din e-post" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Ämne</label>
+                <input type="text" id="subject" name="subject" placeholder="Vad gäller ditt ärende?" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Meddelande</label>
+                <textarea id="message" name="message" rows="5" placeholder="Skriv ditt meddelande här..."
+                    required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Skicka meddelande</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bloom Flower | Alla rättigheter förbehållna</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
